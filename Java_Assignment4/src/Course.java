@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Course {
 
+	//Declaring the variables as private
 	private String courseTitle;
 	private int numberOfStudent;
 
@@ -31,7 +32,7 @@ public class Course {
 	public int getNumberOfStudent(){
 		return numberOfStudent;
 	}
-	
+
 	//Method to check if a number of students are >10 for a course
 	public boolean isFull(){
 		if(numberOfStudent>10){
@@ -53,9 +54,8 @@ public class Course {
 	}
 
 	//Printing the array of registered students
-	public void getStudents(){
-		for(String resultArray: std){
-			System.out.println(resultArray);
-		}	
+	public ArrayList<String> getStudents(){
+		System.out.println("The students registered for the course "+getCourseName() +" are " +std);
+		return std;
 	}	
 }

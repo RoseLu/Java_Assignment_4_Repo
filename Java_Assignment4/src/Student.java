@@ -1,6 +1,7 @@
 
 public class Student {
-
+	
+	//Declaring the variables as private
 	private String studentName;
 	private String studentId;
 

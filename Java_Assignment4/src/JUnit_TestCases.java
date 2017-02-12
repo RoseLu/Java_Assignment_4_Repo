@@ -62,7 +62,7 @@ public class JUnit_TestCases {
 		gas.addGas(40);
 		Assert.assertEquals(60, gas.getGasLevel(),0.01);
 	}
-	
+
 	@Test
 	//Tests for Driver class
 	public void testDriver(){

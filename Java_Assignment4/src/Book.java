@@ -1,11 +1,12 @@
 
 public class Book {
 	
+	//Declaring the variables as private
 	private String bookTitle;
 	private double price;
 	
 	//Creating a constructor for the Book class
-	Book(String bookTitle,double price){
+	public Book(String bookTitle,double price){
 		this.bookTitle=bookTitle;
 		this.price=price;
 	}

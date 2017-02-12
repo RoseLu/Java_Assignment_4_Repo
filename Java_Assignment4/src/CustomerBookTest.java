@@ -24,7 +24,7 @@ public class CustomerBookTest {
 		System.out.println(bk4.getBookTitle() +" , " +bk5.getBookTitle());
 		System.out.println();
 
-		//The price of books could be added this way(but it is easier to create methods which is done below
+		//The price of books could be added this way also(but it is easier to create separate methods as done below for several books)
 		System.out.println("***One way of adding the prices***");
 		System.out.println("Total price of the books that " +cs.getCustomerName() +" bought : " +(bk4.getPrice()+bk5.getPrice()));
 		System.out.println();

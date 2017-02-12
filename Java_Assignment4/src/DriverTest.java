@@ -5,7 +5,7 @@ public class DriverTest {
 	static Car myCar = new Car("Honda",2017,55,"Kona Coffee");
 	static GasTank gas = new GasTank(50);
 
-	//Creating a drive() method which specifies the rules if one can drive a car
+	//Creating a drive() method which specifies the rules for one to drive a car
 	public boolean drive(){
 		if(myCar.getModel().equals("Honda") && gas.getGasLevel()>10){
 			System.out.println("Yes! You can drive the car");
@@ -13,7 +13,7 @@ public class DriverTest {
 		}
 		else
 			System.out.println("No! You cannot drive the car because the specifications are not met");
-			return false;
+		return false;
 	}
 
 	//Creating a method addGas to check if a car has enough fuel to drive
@@ -56,7 +56,7 @@ public class DriverTest {
 		//Checking the DriverTest class method - drive()
 		gas.setAmount(45);
 		myCar.setModel("Honda");
-		System.out.println("***After adding more fuel and setting the correct model of the car***");
+		System.out.println("***After setting more fuel in the car and setting the correct model of the car***");
 		System.out.println("Can the driver drive the car? ");
 		dr.drive();
 		System.out.println();
