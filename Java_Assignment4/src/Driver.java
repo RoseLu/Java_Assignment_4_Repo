@@ -1,5 +1,5 @@
 
-public class DriverTest {
+public class Driver {
 
 	//Creating Car and GasTank objects. It is declared static so that all the methods of this class can access it
 	static Car myCar = new Car("Honda",2017,55,"Kona Coffee");
@@ -46,7 +46,7 @@ public class DriverTest {
 		System.out.println();
 
 		//Checking the DriverTest class method - drive()
-		DriverTest dr = new DriverTest();	
+		Driver dr = new Driver();	
 		gas.setAmount(10);
 		myCar.setModel("BMW");
 		System.out.println("Can the driver drive the car? ");

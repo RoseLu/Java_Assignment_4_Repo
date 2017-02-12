@@ -66,7 +66,7 @@ public class JUnit_TestCases {
 	@Test
 	//Tests for Driver class
 	public void testDriver(){
-		DriverTest drive = new DriverTest();
+		Driver drive = new Driver();
 		Assert.assertTrue(drive.drive());
 	}
 }
